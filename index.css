@@ -189,7 +189,7 @@
 }
 .home-hero1 {
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 .home-container2 {
@@ -199,6 +199,25 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+.home-container02 {
+  width: 1200px;
+  height: 852px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: flex-start;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/external/bridge-1200w.png");
+}
+.home-container03 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .home-hero-heading {
   max-width: 800px;
   text-align: center;
