@@ -208,7 +208,7 @@
   align-items: flex-start;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/external/bridge-1200w.png");
+  background-image: url("docs/assets/bridge-1200w.png");
 }
 .home-container03 {
   gap: var(--dl-space-space-oneandhalfunits);
